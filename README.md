@@ -11,7 +11,11 @@ out requirements
 pipenv requirements > ../app/requirements.txt
 ```
 
-## docker run
+## docker
+```
+cd docker
+```
+run
 ```
 cd docker
 docker-compose up -d

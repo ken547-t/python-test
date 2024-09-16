@@ -20,11 +20,7 @@ def site_map():
     # すべてのルート情報を取得
     routes = []
     for rule in app.url_map.iter_rules():
-        # if rule.
         routes.append(rule)
-    for route in routes:
-        print(route)
-        print(route.rule)
     return render_template("site_map.html", routes=routes)
 
 # formの値を使用
